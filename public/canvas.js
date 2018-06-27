@@ -73,7 +73,7 @@ function Circle(x, y, dx, dy, rad, col) {
 };
 
 var circles = [];
-var numCircles = 750;
+var numCircles = width * height / 500;
 for (let i = 0; i < numCircles; i++) {
   let dx = (Math.random() - 0.5) * 5;
   let dy = (Math.random() - 0.5) * 5;
